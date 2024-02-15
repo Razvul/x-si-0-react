@@ -1,0 +1,11 @@
+.tabla{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: auto;
+}
+.rand{
+    width: auto;
+    margin: auto;
+    height: auto;
+}
