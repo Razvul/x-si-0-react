@@ -2,13 +2,8 @@
 import './Patrat.css'
 import { useState } from 'react'
 
-export default function Patrat({ text }) {
-    const [value, setValue] = useState(null)
-
-    function handleClick() {
-        setValue('X')
-    }
+export default function Patrat({ text, onSquareClick }) {
     return (
-        <button className='patrat' onClick={handleClick}>{value}</button>
+        <div className='patrat' onClick={onSquareClick}>{text}</div>
     )
 }

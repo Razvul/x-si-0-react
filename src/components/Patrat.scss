@@ -1,7 +1,18 @@
-button{
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.patrat{
     width: 100px;
     height: 100px;
     color: green;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 40px;
+    background-color: red;
+    text-align: center;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
