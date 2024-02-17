@@ -31,7 +31,7 @@ export default function Tabla() {
         status = `Castigator: ${castigator}` //'Castigator: ' + castigator
     }
     else {
-        status = `Urmatorul jucator: ${castigator}` //"Urmatorul jucator: " + xIsNext ? "X" : "O"
+        status = `Urmatorul jucator: ${xIsNext ? "X" : "O"}` //"Urmatorul jucator: " + xIsNext ? "X" : "O"
     }
 
     return (
