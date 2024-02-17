@@ -28,10 +28,10 @@ export default function Tabla() {
     const castigator = calculeazaCastigator(patrate)
     let status
     if (castigator) {
-        status = `Castigator: ${castigator}` //'Castigator: ' + castigator
+        status = `Castigator: ${castigator}`
     }
     else {
-        status = `Urmatorul jucator: ${xIsNext ? "X" : "O"}` //"Urmatorul jucator: " + xIsNext ? "X" : "O"
+        status = `Urmatorul jucator: ${xIsNext ? "X" : "O"}`
     }
 
     return (
