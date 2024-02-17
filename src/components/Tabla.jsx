@@ -20,9 +20,6 @@ export default function Tabla() {
         }
         setPatrate(nextPatrate)
         setXIsNext(!xIsNext)
-
-        // console.log(patrate)
-        // console.log(nextPatrate)
     }
 
     const castigator = calculeazaCastigator(patrate)
